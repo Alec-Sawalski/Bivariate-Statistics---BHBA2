@@ -33,3 +33,7 @@ BS.BHBA.1.2 ~ BS.Month + (1|CowID:Farm.No) - BS.Month_warm compared to high or l
 ## AIC: 696.35
 ## 
 ## Number of Fisher Scoring iterations: 4
+
+
+<img src="https://user-images.githubusercontent.com/61294969/77189745-0dfcad00-6aa6-11ea-9274-df57a926a5cb.png">
+
