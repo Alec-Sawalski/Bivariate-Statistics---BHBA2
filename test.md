@@ -93,6 +93,33 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ BS.NEFA.Log
 
+    glm(formula = BS.BHBA.1.2 ~ BS.NEFA.Log, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -1.1894  -0.7129  -0.5020  -0.3348   2.4998  
+
+    Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)  -0.5163     0.1459  -3.539 0.000402 ***
+    BS.NEFA.Log   1.0149     0.1423   7.134 9.76e-13 ***
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 634.16  on 710  degrees of freedom
+    AIC: 638.16
+
+    Number of Fisher Scoring iterations: 5
+
+    Waiting for profiling to be done...
+                   OR     2.5 %    97.5 %
+    (Intercept) 0.5967023 0.4472168 0.7930437
+    BS.NEFA.Log 2.7590339 2.1021784 3.6747065
+
 #### BS.BHBA.1.2 ~ BS.DIM
 
 #### BS.BHBA.1.2 ~ BS.MS.Date.Difference
@@ -121,6 +148,50 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ MS.SFA
 
-####
+#### BS.BHBA.1.2 ~ MS.MFA
 
-####
+#### BS.BHBA.1.2 ~ MS.PFA
+
+#### BS.BHBA.1.2 ~ MS.NSFA
+
+#### BS.BHBA.1.2 ~ MS.Palmeic
+
+#### BS.BHBA.1.2 ~ MS.Stearine
+
+#### BS.BHBA.1.2 ~ MS.Oleic
+
+#### BS.BHBA.1.2 ~ CE.Temp
+
+#### BS.BHBA.1.2 ~ CE.Environ.Temp
+
+#### BS.BHBA.1.2 ~ BS.Cow.Breed
+
+#### BS.BHBA.1.2 ~ Hfr.or.Cow
+
+#### BS.BHBA.1.2 ~ BS.Month
+
+#### BS.BHBA.1.2 ~ CE.Skin.Dehydration
+
+#### BS.BHBA.1.2 ~ CE.Stom.Tension
+
+#### BS.BHBA.1.2 ~ CE.Stom.Layering
+
+#### BS.BHBA.1.2 ~ CE.Stom.Fluid.Movement
+
+#### BS.BHBA.1.2 ~ CE.Stom.Ping
+
+#### BS.BHBA.1.2 ~ CE.Stom.Fullness.2
+
+#### BS.BHBA.1.2 ~ CE.Stom.Noise.Freq
+
+#### BS.BHBA.1.2 ~ CE.Waste.Consistency.2
+
+#### BS.BHBA.1.2 ~ CE.Waste.Digestion
+
+#### BS.BHBA.1.2 ~ CE.Locomotion.Score
+
+#### BS.BHBA.1.2 ~ CE.Lame
+
+#### BS.BHBA.1.2 ~ BS.NEFA.0.7
+
+#### BS.BHBA.1.2 ~ FPR.1.4
