@@ -7,7 +7,7 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ BS.Month_warm
 
-      Call:
+    
      glm(formula = BS.BHBA.1.2 ~ BS.Month_warm, family = binomial(link = logit), 
       data = hp9)
  
@@ -34,9 +34,9 @@ Set working directory
 <img src="https://user-images.githubusercontent.com/61294969/77189745-0dfcad00-6aa6-11ea-9274-df57a926a5cb.png">
 
 
-Call:
-glm(formula = BS.BHBA.1.2 ~ MS.DIM, family = binomial(link = logit), 
-    data = hp9)
+
+      glm(formula = BS.BHBA.1.2 ~ MS.DIM, family = binomial(link = logit), 
+      data = hp9)
 
     Deviance Residuals: 
         Min       1Q   Median       3Q      Max  
