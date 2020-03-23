@@ -837,17 +837,287 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ Hfr.or.Cow
 
+    glm(formula = BS.BHBA.1.2 ~ Hfr.or.Cow, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.6644  -0.6456  -0.6456  -0.6456   1.8279  
+
+    Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)   -1.39842    0.17440  -8.019 1.07e-15 ***
+    Hfr.or.Cowcow -0.06386    0.20828  -0.307    0.759    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 694.37  on 710  degrees of freedom
+    AIC: 698.37
+    
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                     OR     2.5 %   97.5 %
+    (Intercept)   0.2469880 0.1732598 0.343877
+    Hfr.or.Cowcow 0.9381321 0.6273656 1.421892
+     
+        0   1
+    cow 410  95
+    hfr 166  41
+     
+          0     1
+    cow 71.18 69.85
+    hfr 28.82 30.15
+
 #### BS.BHBA.1.2 ~ BS.Month
+
+    glm(formula = BS.BHBA.1.2 ~ BS.Month, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7718  -0.7074  -0.6354  -0.5148   2.0429  
+
+    Coefficients:
+                Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)     -1.92789    0.37839  -5.095 3.49e-07 ***
+    BS.Month07-2018  0.43037    0.46386   0.928   0.3535    
+    BS.Month08-2018  0.67021    0.43298   1.548   0.1216    
+    BS.Month09-2018  0.78276    0.45382   1.725   0.0846 .  
+    BS.Month10-2018 -0.02639    0.45863  -0.058   0.9541    
+    BS.Month11-2018  0.54160    0.43529   1.244   0.2134    
+    BS.Month12-2018  0.86928    0.47161   1.843   0.0653 .  
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 684.25  on 705  degrees of freedom
+    AIC: 698.25
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                       OR     2.5 %    97.5 %
+    (Intercept)     0.1454545 0.0639921 0.2877973
+    BS.Month07-2018 1.5378289 0.6357059 4.0032223
+    BS.Month08-2018 1.9546569 0.8703565 4.8475182
+    BS.Month09-2018 2.1875000 0.9280455 5.6106246
+    BS.Month10-2018 0.9739583 0.4068312 2.5116631
+    BS.Month11-2018 1.7187500 0.7608650 4.2773306
+    BS.Month12-2018 2.3852041 0.9711338 6.2978535
+         
+            0   1
+    06-2018  55   8
+    07-2018  76  17
+    08-2018 102  29
+    09-2018  66  21
+    10-2018 120  17
+    11-2018 108  27
+    12-2018  49  17
+         
+              0     1
+    06-2018  9.55  5.88
+    07-2018 13.19 12.50
+    08-2018 17.71 21.32
+    09-2018 11.46 15.44
+    10-2018 20.83 12.50
+    11-2018 18.75 19.85
+    12-2018  8.51 12.50
 
 #### BS.BHBA.1.2 ~ CE.Skin.Dehydration
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Skin.Dehydration, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.6518  -0.6518  -0.6518  -0.6518   2.0782  
+
+    Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)            -1.44097    0.09791 -14.717   <2e-16 ***
+    CE.Skin.Dehydrationred -0.59591    0.62160  -0.959    0.338    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 677.80  on 699  degrees of freedom
+    Residual deviance: 676.74  on 698  degrees of freedom
+    (12 observations deleted due to missingness)
+    AIC: 680.74
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                              OR     2.5 %    97.5 %
+    (Intercept)            0.2366972 0.1945937 0.2857323
+    CE.Skin.Dehydrationred 0.5510617 0.1293253 1.6140580
+     
+        0   1
+    phy 545 129
+    red  23   3
+     
+          0     1
+    phy 95.95 97.73
+    red  4.05  2.27
+
 #### BS.BHBA.1.2 ~ CE.Stom.Tension
+
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Tension, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.6541  -0.6541  -0.6541  -0.5799   2.0593  
+
+    Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)        -1.43318    0.09954 -14.398   <2e-16 ***
+    CE.Stom.Tensionerh -0.55925    0.44643  -1.253     0.21    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 674.46  on 698  degrees of freedom
+    Residual deviance: 672.68  on 697  degrees of freedom
+    (13 observations deleted due to missingness)
+    AIC: 676.68
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                          OR     2.5 %    97.5 %
+    (Intercept)        0.2385496 0.1954680 0.2888592
+    CE.Stom.Tensionerh 0.5716364 0.2146561 1.2737202
+     
+        0   1
+     phy 524 125
+     erh  44   6
+     
+          0     1
+     phy 92.25 95.42
+    erh  7.75  4.58
 
 #### BS.BHBA.1.2 ~ CE.Stom.Layering
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Layering, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.6681  -0.6441  -0.6441  -0.6441   1.8303  
+
+    Coefficients:
+                  Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)       -1.46755    0.09843 -14.909   <2e-16 ***
+    CE.Stom.Layering0  0.08125    0.56762   0.143    0.886    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 674.04  on 697  degrees of freedom
+    Residual deviance: 674.02  on 696  degrees of freedom
+    (14 observations deleted due to missingness)
+    AIC: 678.02
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                        OR     2.5 %    97.5 %
+    (Intercept)       0.230490 0.1892798 0.2784984
+    CE.Stom.Layering0 1.084646 0.3067791 3.0165598
+   
+      0   1
+    1 551 127
+    0  16   4
+   
+        0     1
+    1 97.18 96.95
+    0  2.82  3.05
+
 #### BS.BHBA.1.2 ~ CE.Stom.Fluid.Movement
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Fluid.Movement, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.6529  -0.6529  -0.6529  -0.6529   2.0782  
+
+    Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)              -1.43730    0.09795 -14.674   <2e-16 ***
+    CE.Stom.Fluid.Movementre -0.59959    0.62161  -0.965    0.335    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 676.97  on 697  degrees of freedom
+    Residual deviance: 675.89  on 696  degrees of freedom
+    (14 observations deleted due to missingness)
+    AIC: 679.89
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                                OR     2.5 %    97.5 %
+    (Intercept)              0.2375691 0.1952981 0.2868054
+    CE.Stom.Fluid.Movementre 0.5490394 0.1288497 1.6081563
+     
+        0   1
+    obb 543 129
+    re   23   3
+     
+          0     1
+    obb 95.94 97.73
+    re   4.06  2.27
+
 #### BS.BHBA.1.2 ~ CE.Stom.Ping
+
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Ping, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7585  -0.6458  -0.6458  -0.6458   1.8276  
+
+    Coefficients:
+               Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)    -1.46163    0.09697 -15.073   <2e-16 ***
+    CE.Stom.Pingre  0.36302    1.15876   0.313    0.754    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 677.80  on 699  degrees of freedom
+    Residual deviance: 677.71  on 698  degrees of freedom
+    (12 observations deleted due to missingness)
+    AIC: 681.71
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                      OR     2.5 %     97.5 %
+    (Intercept)    0.2318584 0.1909747  0.2793839
+    CE.Stom.Pingre 1.4376590 0.0708069 11.3293260
+     
+        0   1
+    re    3   1
+    obb 565 131
+     
+          0     1
+    re   0.53  0.76
+    obb 99.47 99.24
 
 #### BS.BHBA.1.2 ~ CE.Stom.Fullness.2
 
