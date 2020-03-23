@@ -33,7 +33,7 @@ Set working directory
 
 <img src="https://user-images.githubusercontent.com/61294969/77189745-0dfcad00-6aa6-11ea-9274-df57a926a5cb.png">
 
-
+#### BS.BHBA.1.2 ~ MS.DIM
 
       glm(formula = BS.BHBA.1.2 ~ MS.DIM, family = binomial(link = logit), 
       data = hp9)
