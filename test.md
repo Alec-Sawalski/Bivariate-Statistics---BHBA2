@@ -7,6 +7,7 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ BS.Month_warm
 '''r
+
       Call:
      glm(formula = BS.BHBA.1.2 ~ BS.Month_warm, family = binomial(link = logit), 
       data = hp9)
