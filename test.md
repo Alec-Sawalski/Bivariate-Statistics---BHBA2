@@ -62,6 +62,8 @@ Set working directory
                    OR     2.5 %    97.5 %
     (Intercept) 0.4341577 0.2417371 0.7697091
     MS.DIM      0.9677383 0.9388251 0.9971465
+    
+   <img src=https://user-images.githubusercontent.com/61294969/77543528-d3b05880-6e75-11ea-87b3-c8aaa99bb54e.png>
 
 #### BS.BHBA.1.2 ~ CE.Fat.Level
 
