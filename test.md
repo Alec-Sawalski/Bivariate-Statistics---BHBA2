@@ -160,6 +160,9 @@ Set working directory
                    OR     2.5 %    97.5 %
     (Intercept) 0.4465953 0.2453844 0.8025838
     BS.DIM      0.9672133 0.9384097 0.9964962
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77549922-7371e480-6e7e-11ea-8e7d-03a0a0ca2072.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77549942-78cf2f00-6e7e-11ea-90b9-dc747840fac4.png>
 
 #### BS.BHBA.1.2 ~ BS.MS.Date.Difference
 
@@ -190,6 +193,9 @@ Set working directory
     (Intercept)           0.2477401 0.1913297 0.3163388
     BS.MS.Date.Difference 0.9155829 0.6703928 1.2541397
     
+  <img src=https://user-images.githubusercontent.com/61294969/77550179-c3e94200-6e7e-11ea-863a-c79feecdcb22.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77550201-cb105000-6e7e-11ea-871f-44465b5b8b40.png>
+    
 #### BS.BHBA.1.2 ~ Calving.No
 
     glm(formula = BS.BHBA.1.2 ~ Calving.No, family = binomial(link = logit), 
@@ -218,6 +224,9 @@ Set working directory
                    OR     2.5 %    97.5 %
     (Intercept) 0.2295443 0.1624063 0.3213934
     Calving.No  1.0092758 0.9178009 1.1058522
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77550531-36f2b880-6e7f-11ea-9693-cac3386ea14b.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77550552-3ce89980-6e7f-11ea-8166-39e8800c5f37.png>
 
 #### BS.BHBA.1.2 ~ Milk.Yield
 
