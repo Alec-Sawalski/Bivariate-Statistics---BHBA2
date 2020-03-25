@@ -95,6 +95,10 @@ Set working directory
                     OR      2.5 %    97.5 %
     (Intercept)  0.1171732 0.07043956 0.1917457
     CE.Fat.Level 1.0412702 1.01435798 1.0687792
+    
+<img src=https://user-images.githubusercontent.com/61294969/77545239-25f27900-6e78-11ea-90aa-5fba806c54af.png>
+<img src=https://user-images.githubusercontent.com/61294969/77545254-2d198700-6e78-11ea-8070-a246c54feaca.png>
+
 
 #### BS.BHBA.1.2 ~ BS.NEFA.Log
 
@@ -124,6 +128,9 @@ Set working directory
                    OR     2.5 %    97.5 %
     (Intercept) 0.5967023 0.4472168 0.7930437
     BS.NEFA.Log 2.7590339 2.1021784 3.6747065
+
+<img src=https://user-images.githubusercontent.com/61294969/77545478-7964c700-6e78-11ea-8b55-7d6e5abcc3ef.png>
+<img src=https://user-images.githubusercontent.com/61294969/77545499-7f5aa800-6e78-11ea-84b9-44466e1faa1c.png>
 
 #### BS.BHBA.1.2 ~ BS.DIM
 
