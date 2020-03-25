@@ -1121,16 +1121,330 @@ Set working directory
 
 #### BS.BHBA.1.2 ~ CE.Stom.Fullness.2
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Fullness.2, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7585  -0.6465  -0.6465  -0.6465   1.8265  
+
+    Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)            -1.45916    0.09774 -14.928   <2e-16 ***
+    CE.Stom.Fullness.2high  0.36054    1.15883   0.311    0.756    
+    CE.Stom.Fullness.2low   0.36054    0.48143   0.749    0.454    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 693.85  on 709  degrees of freedom
+    AIC: 699.85
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                              OR      2.5 %    97.5 %
+    (Intercept)            0.2324324 0.19114690  0.280485
+    CE.Stom.Fullness.2high 1.4341085 0.07062716 11.302955
+    CE.Stom.Fullness.2low  1.4341085 0.51164043  3.496510
+        
+           0   1
+     normal 555 129
+    high     3   1
+    low     18   6
+        
+             0     1
+    normal 96.35 94.85
+    high    0.52  0.74
+    low     3.12  4.41
+
 #### BS.BHBA.1.2 ~ CE.Stom.Noise.Freq
+
+    glm(formula = BS.BHBA.1.2 ~ CE.Stom.Noise.Freq, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.9218  -0.5855  -0.5855  -0.4952   2.0782 
+
+    Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)               -1.6767     0.2272  -7.381 1.58e-13 ***
+    CE.Stom.Noise.Freqbis_2    1.0407     0.3696   2.816  0.00486 ** 
+    CE.Stom.Noise.Freqgroe_3  -0.3602     0.6545  -0.550  0.58211    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 221.94  on 223  degrees of freedom
+    Residual deviance: 212.86  on 221  degrees of freedom
+    (488 observations deleted due to missingness)
+    AIC: 218.86
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                                OR     2.5 %    97.5 %
+    (Intercept)              0.1869919 0.1168547 0.2859197
+    CE.Stom.Noise.Freqbis_2  2.8312020 1.3645873 5.8504195
+    CE.Stom.Noise.Freqgroe_3 0.6975425 0.1565385 2.2223888
+        
+           0   1
+    phy    123  23
+    bis_2   34  18
+    groe_3  23   3
+        
+             0     1
+    phy    68.33 52.27
+    bis_2  18.89 40.91
+    groe_3 12.78  6.82
 
 #### BS.BHBA.1.2 ~ CE.Waste.Consistency.2
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Waste.Consistency.2, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7832  -0.6303  -0.6303  -0.6303   1.8515  
+
+    Coefficients:
+                            Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)                  -1.5154     0.1116 -13.583   <2e-16 ***
+    CE.Waste.Consistency.2thick   0.4908     0.3309   1.483    0.138    
+    CE.Waste.Consistency.2thin    0.1825     0.2552   0.715    0.474    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 692.13  on 709  degrees of freedom
+    AIC: 698.13
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                                   OR     2.5 %    97.5 %
+    (Intercept)                 0.2197309 0.1756313 0.2721084
+    CE.Waste.Consistency.2thick 1.6336996 0.8284874 3.0598428
+    CE.Waste.Consistency.2thin  1.2002691 0.7156744 1.9533102
+       
+          0   1
+    norm  446  98
+    thick  39  14
+    thin   91  24
+       
+            0     1
+    norm  77.43 72.06
+    thick  6.77 10.29
+    thin  15.80 17.65
+
 #### BS.BHBA.1.2 ~ CE.Waste.Digestion
+
+    glm(formula = BS.BHBA.1.2 ~ CE.Waste.Digestion, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7040  -0.6339  -0.6339  -0.6339   1.8460  
+
+    Coefficients:
+                        Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)              -1.5029     0.1134 -13.249   <2e-16 ***
+    CE.Waste.Digestionmaess   0.2344     0.2201   1.065    0.287    
+    CE.Waste.Digestionschl  -13.0632   441.3717  -0.030    0.976    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 670.7  on 689  degrees of freedom
+    Residual deviance: 667.9  on 687  degrees of freedom
+     (22 observations deleted due to missingness)
+    AIC: 673.9
+
+    Number of Fisher Scoring iterations: 13
+
+    Waiting for profiling to be done...
+    values                                  OR     2.5 %       97.5 %
+    (Intercept)             2.224824e-01 0.1771505 2.764943e-01
+    CE.Waste.Digestionmaess 1.264145e+00 0.8136817 1.932578e+00
+    CE.Waste.Digestionschl  2.121981e-06        NA 2.005102e+16
+       
+          0   1
+    gut   427  95
+    maess 128  36
+    schl    4   0
+       
+            0     1
+    gut   76.39 72.52
+    maess 22.90 27.48
+    schl   0.72  0.00
 
 #### BS.BHBA.1.2 ~ CE.Locomotion.Score
 
+    glm(formula = BS.BHBA.1.2 ~ CE.Locomotion.Score, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -1.1774  -0.6350  -0.6222  -0.6095   1.8841  
+
+    Coefficients:
+                     Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)          -1.54369    0.13560 -11.384  < 2e-16 ***
+    CE.Locomotion.Score2  0.04491    0.21798   0.206  0.83676    
+    CE.Locomotion.Score3 -0.04555    0.37255  -0.122  0.90269    
+    CE.Locomotion.Score4  1.36136    0.44913   3.031  0.00244 ** 
+    CE.Locomotion.Score5  1.54369    1.42070   1.087  0.27723    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 664.03  on 687  degrees of freedom
+    Residual deviance: 654.39  on 683  degrees of freedom
+    (24 observations deleted due to missingness)
+    AIC: 664.39
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                            OR     2.5 %      97.5 %
+    (Intercept)          0.2135922 0.1624220   0.2766184
+    CE.Locomotion.Score2 1.0459381 0.6786679   1.5980299
+    CE.Locomotion.Score3 0.9554731 0.4374151   1.9116569
+    CE.Locomotion.Score4 3.9015152 1.5854797   9.4242092
+    CE.Locomotion.Score5 4.6818182 0.1835843 119.4044849
+   
+      0   1
+    1 309  66
+    2 188  42
+    3  49  10
+    4  12  10
+    5   1   1
+   
+        0     1
+    1 55.28 51.16
+    2 33.63 32.56
+    3  8.77  7.75
+    4  2.15  7.75
+    5  0.18  0.78
+
 #### BS.BHBA.1.2 ~ CE.Lame
+
+    glm(formula = BS.BHBA.1.2 ~ CE.Lame, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.7638  -0.6355  -0.6355  -0.6355   1.8435  
+
+    Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)  -1.4973     0.1032  -14.52   <2e-16 ***
+    CE.Lame1      0.4147     0.2727    1.52    0.128    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 692.27  on 710  degrees of freedom
+    AIC: 696.27
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                   OR     2.5 %    97.5 %
+    (Intercept) 0.2237354 0.1819541 0.2727376
+    CE.Lame1    1.5138850 0.8700739 2.5469113
+   
+      0   1
+    0 514 115
+    1  62  21
+   
+        0     1
+    0 89.24 84.56
+    1 10.76 15.44
+
 
 #### BS.BHBA.1.2 ~ BS.NEFA.0.7
 
+    glm(formula = BS.BHBA.1.2 ~ BS.NEFA.0.7, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.9518  -0.5672  -0.5672  -0.5672   1.9527  
+
+    Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)   -1.7456     0.1176 -14.850  < 2e-16 ***
+    BS.NEFA.0.71   1.1888     0.2113   5.625 1.85e-08 ***
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 664.43  on 710  degrees of freedom
+    AIC: 668.43
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                   OR     2.5 %    97.5 %
+    (Intercept)  0.174538 0.1377193 0.2184596
+    BS.NEFA.0.71 3.283146 2.1643013 4.9624374
+   
+      0   1
+     0 487  85
+     1  89  51
+   
+        0     1
+    0 84.55 62.50
+    1 15.45 37.50
+
 #### BS.BHBA.1.2 ~ FPR.1.4
+
+    glm(formula = BS.BHBA.1.2 ~ FPR.1.4, family = binomial(link = logit), 
+    data = hp9)
+
+    Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+    -0.8627  -0.8627  -0.4907  -0.4907   2.0864  
+
+    Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+    (Intercept)  -2.0562     0.1517 -13.553  < 2e-16 ***
+    FPR.1.41      1.2594     0.1992   6.321 2.59e-10 ***
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 694.46  on 711  degrees of freedom
+    Residual deviance: 652.54  on 710  degrees of freedom
+    AIC: 656.54
+
+    Number of Fisher Scoring iterations: 4
+
+    Waiting for profiling to be done...
+                   OR      2.5 %    97.5 %
+    (Intercept) 0.1279373 0.09388698 0.1703984
+    FPR.1.41    3.5234218 2.39452884 5.2359645
+   
+      0   1
+    0 383  49
+    1 193  87
+   
+        0     1
+    0 66.49 36.03
+    1 33.51 63.97
+
+
