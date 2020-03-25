@@ -257,6 +257,9 @@ Set working directory
                    OR      2.5 %    97.5 %
     (Intercept) 0.2170345 0.07122811 0.6288628
     Milk.Yield  1.0046920 0.97254097 1.0384050
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77551532-7968c500-6e80-11ea-9136-69e78668e0b4.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77551562-82599680-6e80-11ea-8b9f-4eb147ff96b0.png>
 
 #### BS.BHBA.1.2 ~ MS.Milk.Yield
 
@@ -286,6 +289,9 @@ Set working directory
                      OR     2.5 %    97.5 %
     (Intercept)   0.2269388 0.1381628 0.3737587
     MS.Milk.Yield 1.0026544 0.9713925 1.0331587
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77552116-217e8e00-6e81-11ea-83fa-78883c6de550.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77552140-27746f00-6e81-11ea-933e-1edfe129c66d.png>
 
 #### BS.BHBA.1.2 ~ MS.NEFA
 
@@ -316,6 +322,9 @@ Set working directory
                    OR      2.5 %   97.5 %
     (Intercept) 0.1304186 0.07999888 0.205644
     MS.NEFA     1.1348526 1.05156326 1.227011
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77552275-5559b380-6e81-11ea-9a40-d820e59d3b7d.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77552298-5be82b00-6e81-11ea-9b0f-996a71b919c0.png>
 
 #### BS.BHBA.1.2 ~ BS.DIM
 
@@ -345,6 +354,9 @@ Set working directory
                    OR     2.5 %    97.5 %
     (Intercept) 0.4465953 0.2453844 0.8025838
     BS.DIM      0.9672133 0.9384097 0.9964962
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77552444-8c2fc980-6e81-11ea-98c0-f76c090f957a.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77552477-94880480-6e81-11ea-8a18-b3ec483319f9.png>
 
 #### BS.BHBA.1.2 ~ MS.Fat
 
@@ -374,6 +386,9 @@ Set working directory
                     OR      2.5 %     97.5 %
     (Intercept) 0.03241687 0.01409631 0.07206189
     MS.Fat      1.53434969 1.30178885 1.81666177
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77555240-0746af00-6e85-11ea-9fc0-e8addd454f6c.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77555260-0dd52680-6e85-11ea-8af6-0321dd16865d.png>
 
 #### BS.BHBA.1.2 ~ MS.Protein
 
@@ -403,6 +418,9 @@ Set working directory
                      OR       2.5 %       97.5 %
     (Intercept) 130.6530588 14.62393008 1253.3748502
     MS.Protein    0.1414084  0.06941738    0.2798488
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77555449-3c530180-6e85-11ea-822e-3686fefe250c.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77555471-437a0f80-6e85-11ea-9a9a-9555035317da.png>
 
 #### BS.BHBA.1.2 ~ MS.Lactose
 
@@ -432,6 +450,9 @@ Set working directory
                      OR      2.5 %       97.5 %
     (Intercept) 283.1076978 3.20955127 3.057114e+04
     MS.Lactose    0.2292081 0.08636079 5.815501e-01
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77555587-6c9aa000-6e85-11ea-890d-3c936e5fd251.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77555605-71f7ea80-6e85-11ea-95b8-a9e32c38d193.png>
 
 #### BS.BHBA.1.2 ~ MS.Acetone.Log
 
@@ -462,6 +483,9 @@ Set working directory
                         OR        2.5 %      97.5 %
     (Intercept)    0.001835986 0.0004284467 0.006966016
     MS.Acetone.Log 3.009813418 2.2885541425 4.048326873
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77555745-9e136b80-6e85-11ea-818a-44a11bb9c4eb.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77555767-a4094c80-6e85-11ea-8ee2-aef36169711c.png>
 
 #### BS.BHBA.1.2 ~ MS.Urea
 
@@ -488,9 +512,12 @@ Set working directory
     Number of Fisher Scoring iterations: 4
 
     Waiting for profiling to be done...
-                        OR        2.5 %      97.5 %
-    (Intercept)    0.001835986 0.0004284467 0.006966016
-    MS.Acetone.Log 3.009813418 2.2885541425 4.048326873
+                    OR      2.5 %   97.5 %
+    (Intercept) 0.08860935 0.04674607 0.164667
+    MS.Urea     1.03896262 1.01554255 1.063093
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77557687-0cf1c400-6e88-11ea-956a-03fe48e912e3.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77557708-12e7a500-6e88-11ea-8585-abd7031ebb3d.png>
 
 #### BS.BHBA.1.2 ~ MS.S.Cell.Count.Log
 
@@ -520,6 +547,9 @@ Set working directory
                            OR      2.5 %    97.5 %
     (Intercept)         0.1839456 0.09777438 0.3435657
     MS.S.Cell.Count.Log 1.0610660 0.91961523 1.2202637
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77557882-4296ad00-6e88-11ea-977c-73f5c47157f5.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77557898-488c8e00-6e88-11ea-97b1-f9850a4c4ba9.png>
 
 #### BS.BHBA.1.2 ~ MS.pH
 
@@ -549,6 +579,9 @@ Set working directory
                       OR      2.5 %       97.5 %
     (Intercept) 8.979684e+05 0.85520607 7.334620e+11
     MS.pH       1.017863e-01 0.01303654 8.235371e-01
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77563551-6c9f9d80-6e8f-11ea-9210-05937176e675.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77563580-72957e80-6e8f-11ea-81df-460d7673499b.png>
 
 #### BS.BHBA.1.2 ~ MS.SFA
 
@@ -579,6 +612,9 @@ Set working directory
                     OR      2.5 %   97.5 %
     (Intercept) 0.06361453 0.02170187 0.177149
     MS.SFA      1.76013167 1.21701475 2.574248
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77563713-a1abf000-6e8f-11ea-927f-146aec445fec.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77563729-a7a1d100-6e8f-11ea-9599-4e538b719038.png>
 
 #### BS.BHBA.1.2 ~ MS.MFA
 
@@ -609,6 +645,9 @@ Set working directory
                     OR      2.5 %     97.5 %
     (Intercept) 0.02801033 0.01272922 0.05821857
     MS.MFA      4.91800353 3.12075690 7.99188713
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564128-3b739d00-6e90-11ea-90ff-4661639c825e.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564152-40385100-6e90-11ea-8877-f3cfac4a8f47.png>
 
 #### BS.BHBA.1.2 ~ MS.PFA
 
@@ -639,6 +678,9 @@ Set working directory
                       OR        2.5 %       97.5 %
     (Intercept) 2.196125e-02 8.148268e-03 5.538004e-02
     MS.PFA      5.924131e+06 3.078850e+04 1.536874e+09
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564270-6d84ff00-6e90-11ea-80a8-a935de48d7dd.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564287-7544a380-6e90-11ea-9a68-d1eeb3635e3d.png>
 
 #### BS.BHBA.1.2 ~ MS.NSFA
 
@@ -668,6 +710,9 @@ Set working directory
                     OR      2.5 %     97.5 %
     (Intercept) 0.02585601 0.01360692 0.04746619
     MS.NSFA     1.13454645 1.09931007 1.17248609
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564373-9dcc9d80-6e90-11ea-9deb-a4fda4b22f5c.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564390-a3c27e80-6e90-11ea-82e0-fc351bf60730.png>
 
 #### BS.BHBA.1.2 ~ MS.Palmeic
 
@@ -698,6 +743,9 @@ Set working directory
                    OR      2.5 %   97.5 %
     (Intercept) 0.2599191 0.08778159 0.783009
     MS.Palmeic  1.1047304 0.41559900 2.817616
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564496-d3718680-6e90-11ea-8b5e-decbabe8d511.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564512-da989480-6e90-11ea-8b8f-701c14003cec.png>
 
 #### BS.BHBA.1.2 ~ MS.Stearine
 
@@ -728,6 +776,9 @@ Set working directory
                       OR        2.5 %       97.5 %
     (Intercept)   0.01509111  0.005849489   0.03625587
     MS.Stearine 207.33232604 47.825292935 992.52377440
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564626-074cac00-6e91-11ea-8308-1bc89f4f9fe0.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564640-0d428d00-6e91-11ea-9ddb-f97aeac47b29.png>
 
 #### BS.BHBA.1.2 ~ MS.Oleic
 
@@ -758,6 +809,9 @@ Set working directory
                     OR      2.5 %     97.5 %
     (Intercept) 0.03189325 0.01510683 0.06370411
     MS.Oleic    5.00940813 3.17636735 8.15182338
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564764-3a8f3b00-6e91-11ea-98cd-c3b1a2491ca5.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564784-411db280-6e91-11ea-946c-070c200b838d.png>
 
 #### BS.BHBA.1.2 ~ CE.Temp
 
@@ -786,6 +840,9 @@ Set working directory
                   OR       2.5 %    97.5 %
     (Intercept) 0.117168 0.002630313 30.219421
     CE.Temp     1.017740 0.881258738  1.122815
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77564891-69a5ac80-6e91-11ea-9f26-e20eb7cba17f.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77564909-70ccba80-6e91-11ea-9536-2bad623bc70c.png>
 
 #### BS.BHBA.1.2 ~ CE.Environ.Temp
 
@@ -816,6 +873,9 @@ Set working directory
                        OR     2.5 %    97.5 %
     (Intercept)     0.2459121 0.1421530 0.4163245
     CE.Environ.Temp 0.9972331 0.9675062 1.0279192
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77565030-a1145900-6e91-11ea-9765-d52701c6ed99.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77565053-a8d3fd80-6e91-11ea-8174-17dd7e8746eb.png>
 
 #### BS.BHBA.1.2 ~ BS.Cow.Breed
 
