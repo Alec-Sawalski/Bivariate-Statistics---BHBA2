@@ -31,7 +31,7 @@ Set working directory
     Number of Fisher Scoring iterations: 4
 
 
-<img src="https://user-images.githubusercontent.com/61294969/77189745-0dfcad00-6aa6-11ea-9274-df57a926a5cb.png">
+<img src=https://user-images.githubusercontent.com/61294969/77671695-f74ad000-6f55-11ea-960e-d7f1c837441a.png>
 
 <img src="https://user-images.githubusercontent.com/61294969/77337940-9faf2900-6cf7-11ea-86ea-cdffca2eae72.png">
 
