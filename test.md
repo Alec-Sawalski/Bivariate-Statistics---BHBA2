@@ -913,6 +913,9 @@ Set working directory
          0     1
     01 58.51 73.53
     02 41.49 26.47
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77664486-53105b80-6f4c-11ea-88e9-8f36182a3283.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77664507-5a376980-6f4c-11ea-9502-5b65e568b70f.png>
 
 #### BS.BHBA.1.2 ~ Hfr.or.Cow
 
@@ -950,6 +953,9 @@ Set working directory
           0     1
     cow 71.18 69.85
     hfr 28.82 30.15
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77664655-8eab2580-6f4c-11ea-9c0d-d5dde95fbc83.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77664684-95399d00-6f4c-11ea-8df2-3980d2624de8.png>
 
 #### BS.BHBA.1.2 ~ BS.Month
 
@@ -1007,6 +1013,9 @@ Set working directory
     10-2018 20.83 12.50
     11-2018 18.75 19.85
     12-2018  8.51 12.50
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77666625-2c075900-6f4f-11ea-9dcb-2ca84302911b.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77666650-33c6fd80-6f4f-11ea-8cce-26831d0bfbd8.png>
 
 #### BS.BHBA.1.2 ~ CE.Skin.Dehydration
 
@@ -1045,6 +1054,9 @@ Set working directory
           0     1
     phy 95.95 97.73
     red  4.05  2.27
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77666788-62dd6f00-6f4f-11ea-9547-5d6fe8d74294.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77666815-696be680-6f4f-11ea-8a65-f2805cd38996.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Tension
 
@@ -1083,6 +1095,9 @@ Set working directory
           0     1
      phy 92.25 95.42
     erh  7.75  4.58
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77667720-9371d880-6f50-11ea-993b-1d6e9377e0cd.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77667737-9a005000-6f50-11ea-8211-cc467d224710.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Layering
 
@@ -1121,6 +1136,9 @@ Set working directory
         0     1
     1 97.18 96.95
     0  2.82  3.05
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77667881-c0be8680-6f50-11ea-9c72-9ea6c6ec1d99.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77667907-c74cfe00-6f50-11ea-8058-1316654e279f.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Fluid.Movement
 
@@ -1159,6 +1177,9 @@ Set working directory
           0     1
     obb 95.94 97.73
     re   4.06  2.27
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77668488-77bb0200-6f51-11ea-8dd1-303ede1f608b.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77668509-7db0e300-6f51-11ea-8af1-71085ad8ff0c.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Ping
 
@@ -1197,6 +1218,9 @@ Set working directory
           0     1
     re   0.53  0.76
     obb 99.47 99.24
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77668617-9faa6580-6f51-11ea-861b-58668171193e.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77668631-a5a04680-6f51-11ea-9a18-1532546e6a85.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Fullness.2
 
@@ -1238,6 +1262,9 @@ Set working directory
     normal 96.35 94.85
     high    0.52  0.74
     low     3.12  4.41
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77668732-cbc5e680-6f51-11ea-9b4d-ec615ed44bd5.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77668756-d1233100-6f51-11ea-886f-5d1b723a0cbe.png>
 
 #### BS.BHBA.1.2 ~ CE.Stom.Noise.Freq
 
@@ -1280,7 +1307,10 @@ Set working directory
     phy    68.33 52.27
     bis_2  18.89 40.91
     groe_3 12.78  6.82
-
+    
+ <img src=https://user-images.githubusercontent.com/61294969/77669052-43941100-6f52-11ea-9bef-637ffda33654.png>
+ <img src=https://user-images.githubusercontent.com/61294969/77669070-48f15b80-6f52-11ea-88b4-bc93932cde9b.png>
+    
 #### BS.BHBA.1.2 ~ CE.Waste.Consistency.2
 
     glm(formula = BS.BHBA.1.2 ~ CE.Waste.Consistency.2, family = binomial(link = logit), 
@@ -1321,6 +1351,9 @@ Set working directory
     norm  77.43 72.06
     thick  6.77 10.29
     thin  15.80 17.65
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77669245-8524bc00-6f52-11ea-88a1-334e720e6842.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77669273-8bb33380-6f52-11ea-8c65-119962a1fe45.png>
 
 #### BS.BHBA.1.2 ~ CE.Waste.Digestion
 
@@ -1363,6 +1396,9 @@ Set working directory
     gut   76.39 72.52
     maess 22.90 27.48
     schl   0.72  0.00
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77670901-d0d86500-6f54-11ea-938a-4333b97aef20.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77670918-d6ce4600-6f54-11ea-8e26-079599b725ea.png>
 
 #### BS.BHBA.1.2 ~ CE.Locomotion.Score
 
@@ -1413,6 +1449,9 @@ Set working directory
     3  8.77  7.75
     4  2.15  7.75
     5  0.18  0.78
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77671019-fbc2b900-6f54-11ea-9eae-7c7f25767880.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77671029-01200380-6f55-11ea-93b1-7f714bca947b.png>
 
 #### BS.BHBA.1.2 ~ CE.Lame
 
@@ -1450,6 +1489,9 @@ Set working directory
         0     1
     0 89.24 84.56
     1 10.76 15.44
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77671155-30cf0b80-6f55-11ea-9e54-6020cf272072.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77671171-36c4ec80-6f55-11ea-822d-5f8080db5bf6.png>
 
 
 #### BS.BHBA.1.2 ~ BS.NEFA.0.7
@@ -1488,6 +1530,9 @@ Set working directory
         0     1
     0 84.55 62.50
     1 15.45 37.50
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77671418-97542980-6f55-11ea-8fa5-8a23d586a46a.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77671435-9cb17400-6f55-11ea-9649-afaa58a91d00.png>
 
 #### BS.BHBA.1.2 ~ FPR.1.4
 
@@ -1525,5 +1570,8 @@ Set working directory
         0     1
     0 66.49 36.03
     1 33.51 63.97
+    
+  <img src=https://user-images.githubusercontent.com/61294969/77671548-ca96b880-6f55-11ea-8208-603e853b5666.png>
+  <img src=https://user-images.githubusercontent.com/61294969/77671566-d08c9980-6f55-11ea-9cc3-f8e0f5ffae31.png>
 
 
