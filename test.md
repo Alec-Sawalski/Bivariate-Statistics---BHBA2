@@ -5,36 +5,6 @@ Dopfer
 3/18/2020
 Set working directory
 
-#### BS.BHBA.1.2 ~ BS.Month_warm
-
-    
-     glm(formula = BS.BHBA.1.2 ~ BS.Month_warm, family = binomial(link = logit), 
-      data = hp9)
- 
-     Deviance Residuals: 
-         Min       1Q   Median       3Q      Max  
-     -0.6966  -0.6966  -0.6145  -0.6145   1.8761  
- 
-     Coefficients:
-                Estimate Std. Error z value Pr(>|z|)    
-     (Intercept)     -1.5710     0.1323 -11.874   <2e-16 ***
-     BS.Month_warm1   0.2786     0.1911   1.457    0.145    
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
- 
-     (Dispersion parameter for binomial family taken to be 1)
-
-     Null deviance: 694.46  on 711  degrees of freedom
-     Residual deviance: 692.35  on 710  degrees of freedom
-     AIC: 696.35
- 
-    Number of Fisher Scoring iterations: 4
-
-
-<img src=https://user-images.githubusercontent.com/61294969/77671695-f74ad000-6f55-11ea-960e-d7f1c837441a.png>
-
-<img src="https://user-images.githubusercontent.com/61294969/77337940-9faf2900-6cf7-11ea-86ea-cdffca2eae72.png">
-
 #### BS.BHBA.1.2 ~ MS.DIM
 
       glm(formula = BS.BHBA.1.2 ~ MS.DIM, family = binomial(link = logit), 
@@ -876,6 +846,35 @@ Set working directory
     
   <img src=https://user-images.githubusercontent.com/61294969/77565030-a1145900-6e91-11ea-9765-d52701c6ed99.png>
   <img src=https://user-images.githubusercontent.com/61294969/77565053-a8d3fd80-6e91-11ea-8174-17dd7e8746eb.png>
+
+#### BS.BHBA.1.2 ~ BS.Month_warm
+
+    
+     glm(formula = BS.BHBA.1.2 ~ BS.Month_warm, family = binomial(link = logit), 
+      data = hp9)
+ 
+     Deviance Residuals: 
+         Min       1Q   Median       3Q      Max  
+     -0.6966  -0.6966  -0.6145  -0.6145   1.8761  
+ 
+     Coefficients:
+                Estimate Std. Error z value Pr(>|z|)    
+     (Intercept)     -1.5710     0.1323 -11.874   <2e-16 ***
+     BS.Month_warm1   0.2786     0.1911   1.457    0.145    
+     ---
+     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+ 
+     (Dispersion parameter for binomial family taken to be 1)
+
+     Null deviance: 694.46  on 711  degrees of freedom
+     Residual deviance: 692.35  on 710  degrees of freedom
+     AIC: 696.35
+ 
+    Number of Fisher Scoring iterations: 4
+
+
+<img src=https://user-images.githubusercontent.com/61294969/77671695-f74ad000-6f55-11ea-960e-d7f1c837441a.png>
+<img src="https://user-images.githubusercontent.com/61294969/77337940-9faf2900-6cf7-11ea-86ea-cdffca2eae72.png">
 
 #### BS.BHBA.1.2 ~ BS.Cow.Breed
 
