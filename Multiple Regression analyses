@@ -1,0 +1,29 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: BS.BHBA.1.2 ~ MS.Acetone.Log + Cow.Breed + (1 | CowID)
+   Data: sub5_ncf_BHB
+
+     AIC      BIC   logLik deviance df.resid 
+   455.8    472.8   -223.9    447.8      517 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.2490 -0.0442 -0.0176 -0.0010  6.0287 
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ CowID  (Intercept) 73.23    8.558   
+Number of obs: 521, groups:  CowID, 328
+
+Fixed effects:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     -7.4096     1.1279  -6.569 5.05e-11 ***
+MS.Acetone.Log   2.7440     0.5014   5.472 4.45e-08 ***
+Cow.Breed02      2.9418     1.1095   2.651  0.00801 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) MS.A.L
+MS.Acetn.Lg -0.390       
+Cow.Breed02 -0.305  0.419
